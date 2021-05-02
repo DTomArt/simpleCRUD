@@ -8,6 +8,8 @@ const ejs = require('ejs');
 
 const app = express();  //initialize app
 app.use(morgan('common'));  //for logs
+app.use(express.urlencoded({extended:true}));
+app.use(express.json());
 
 //set for rendering site
 app.set('view engine', 'html');
