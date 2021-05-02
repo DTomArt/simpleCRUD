@@ -16,4 +16,4 @@ Start with:
 ```sh
 $ npm run start
 ```
-App should be on port listed in terminal(default: 3000)
+App should be on localhost port listed in terminal(default: 3000)
